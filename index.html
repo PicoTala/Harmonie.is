@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Harmonie Snow</title>
+    <style>
+      @import url("my.css");
+      @media (max-width: 1300px) {
+        .frontpage {
+          grid-template-columns: 1fr;
+          grid-template-areas: 
+          "frtcontent"
+          "sidebar";
+        }
+        .sidebar img {
+          padding: 5px;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <main id="content">
+      <nav id="nav">
+        <ul class="navlist">
+          <li><a href="vibing.html">Blog</a></li>
+          <li>
+            <a href="index.html"><img src="img/Logo_HS.png" alt="logo" /></a>
+          </li>
+          <li><a href="working.html">Work</a></li>
+        </ul>
+      </nav>
+      <section id="page">
+        <div class="frontpage">          
+            <div class="intro">
+        
+            <img src="img/20191122_122301.jpg" alt="a leaf in my hair" />
+              <article class="frontpagetext">
+                <h4>Hello! It's nice to meet you.</h4>
+            
+            <p>
+              I'll go ahead and introduce myself, if you don't mind. My name is
+              Harmonie Snow, and this website is a place to share both my
+              personal and professional projects. I live in MA with my husband
+              John, and our two cats, Nano and Pico. I'm currently studying Web
+              Design at UMass Lowell, as well as learning Python through my own
+              self-study. Many of the things here on my site are a result of
+              different projects I've done, while learning how to utilize those
+              skills. I also am interested in writing, and have played around
+              with Twinery in order to see what making a text game looks like.
+              It was fun, and I'm planning a few others to make as well.
+            </p>
+            <p>
+              I've got several hobbies that take up my personal time, including
+              cross stitch, photography, cooking and volunteer work. I also run
+              a small Etsy shop, with jewelry and other things I've made. I've
+              included links to some of my favorite things on this site, please
+              go ahead and take a look! If you want to reach me, there's the
+              usual Contact area below, or you can check out
+              where I am on social media.
+            </p>
+          </article></section>
+          <div class="ctform">
+            <form
+              id="contactform"
+              action="/my-handling-form-page"
+              method="post"
+            >
+              <ul>
+                <li>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                  <button type="submit">Send your message</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <footer id="footer">
+        <ul class="footer">
+          <li>
+            <a href="https://www.facebook.com/harmonie.perry"
+              ><img src="img/facebook_circle-256.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/harmonie-snow/"
+              ><img src="img/linkedin_circle-256.png" alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/PicoTala"
+              ><img src="img/twitter_circle-256.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/picotala/"
+              ><img src="img/instagram_circle-256.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.etsy.com/shop/WritersBlockCrafts"
+              ><img src="img/etsy-logo.png" alt="Etsy"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

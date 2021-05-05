@@ -1,0 +1,102 @@
+ <!--<div class="resume">
+    <div class="resumegrid">
+      <div class="resheading1">
+        <h3>Experience</h3>
+      </div>
+      <div class="blank1"></div>
+      <div class="work1">
+        <h4>Customer Service Specialist, IFS Core</h4>
+        <h5>2018 to 2019</h5>
+        <ul class="experience">
+          <li>Maintained a responsive help desk system via both email and phone, using Zendesk.</li>
+          <li>Collaborated with business partners on client setup, onboarding, and product training.</li>
+          <li>Reported software bugs and enhancements through the use of Jira.</li>
+          <li>Assisted in software testing and QA for Product Development.</li>
+          <li>Contributed results and data to software release planning discussions.</li>
+          <li>Provided On-Call Support after business hours and overnight.</li>
+          <li>Programmed Fonality setup at both home and remote offices.</li>
+        </ul>
+        <p class="skills">Skills: Product knowledge, Customer Management, Software Testing &#38; QA, Training, Client &#38; Infastructure Support, Release &#38; Sprint Testing</p>
+        <p>IFS Core is software development company, based in North Billerica, MA. They cultivate a mobile software which provides "in the field" access for contractors and HVAC technicians.</p>
+      </div>
+      <div class="info1"> <a href="https://www.ifscore.com/"><img src="img/ifscore_logo.png" alt="ifs core logo" /></a>
+        <p>IFS Core is a software company, based in Billerica, MA. They develop and maintain software to support the construction and speciality contractor industries. My role as part of the Support team was to provide consistant and thorough 24/7 support to all clients, as well as provide QA testing for software updates to the Development team.</p>
+      </div>
+      <div class="work2">
+        <h4>Campaign Design Specialist, Constant Contact</h4>
+        <h5>2014 to 2017</h5>
+        <ul class="experience">
+          <li>Developed and delivered branded, specialized, mobile-friendly email marketing templates for small businesses.</li>
+          <li>Anticipated marketing needs and provided useful, related design elements.</li>
+          <li>Designed email marketing campaigns compliant with all major email clients, including Outlook and Webmail.</li>
+          <li>Utilized marketing data to cross-promote other internal design products, with a focus on both sales metrics and customer success.</li>
+        </ul>
+        <p class="skills">Skills: HTML and CSS, Photoshop &#38; other image editors, Mobile Template Design, Color Theory, Social Media, Marketing</p>
+      </div>
+      <div class="info2"><a href="https://www.constantcontact.com/"><img src="img/constant_contact_logo.png" alt="constant contact logo" /></a><p>Constant Contact specializes in providing online marketing services to small, medium, and non-profit organizations. I heald two positions here. I was initally hired as an Engagement Specialist, and was later promoted into the Campaign Design team.</p><a href="CTCTportfolio.html"><button class="resumebutton">Design Portfolio</button></a></div>
+      <div class="work3">
+        <h4>Engagement Specialist, Constant Contact</h4>
+        <h5>2013 to 2014</h5>
+        <ul class="experience">
+          <li>Trained small business owners in the use of successful marketing strategies.</li>
+          <li>Provided consultation regarding implementation of marketing software.</li>
+          <li>Analyzed T1 issues with UI and related software.</li>
+          <li>Monitored trends and provided tracking for persistent issues.</li>
+        </ul>
+        <p class="skills">Skills: Contact Management Software, Interpersonal Skills, HTML, CSS, CRM, Marketing, Social Media Engagement, Data Management, Legacy Email &#38; Directory Systems</p>
+      </div>
+      <div class="info2"></div>
+      <div class="work4">
+        <h4>Head of Member Accessibility, Otakon</h4>
+        <h5>2013 to 2017</h5>
+        <ul class="experience">
+          <li>Created and implemented an ADA-compliant policy across the entire organization, covering 35,000 attendees. </li>
+          <li>Recruited talent to build a fully staffed and responsive team.</li>
+          <li>Ensured a quality experience for Make-A-Wish V.I.Ps.</li>
+          <li>Created sensitivity training briefs on M.A. material for other member-facing teams.</li>
+			<li>Co-ordinated with other Departments to ensure a safe convention for all guests.</li>
+			<li>Managed training and scheduling for a team of 6-8 volunteers.</li>
+        </ul>
+        <p class="skills">Skills: Ability to work effectively in a high stress environment; Empathetic and confidential handling of sensitive issues; Planning and Implementation; Knowledge of ADA, Crowd Management, and HIPAA</p>
+      </div>
+      <div class="info3"><a href="https://www.otakon.com/"><img src="img/logo2020h_blue_240.png" alt="otakon logo" /></a><p>Otakon is an annual, 3-day anime and East Asian culture convention, and encompasses yearly 30K+ attendees. My role was to manage the Member Accessibility Department, which provided on-site support to members to ensure ease of access during the con.</p></div>
+      <div class="work5">
+        <h4>Universal Care Technician &#38; Trainer, Verizon Wireless</h4>
+        <h5>2005 to 2013</h5>
+        <ul class="experience">
+          <li>Provided immediate and thorough troubleshooting of mobile devices and billing support for customers in both retail and call center branches.</li>
+			<li>Created inter-departmental trainings used within the call center to reduce wait times and transfers to Tier 2.</li>
+          <li>Developed and administered a series of 90 minute device trainings for customers that were implemented at other Verizon store locations.</li>
+			<li>Managed store inventory and ordering to support sales trends and consumer demands.</li>
+        </ul>
+        <p class="skills">Skills: Conflict Resolution &#38; De-Escalation Strategies, Developing Training Materials, Commitment to Customer Satisfaction, Knowledge of major mobile OS platforms, Billing, Public Speaking</p>
+      </div>
+      <div class="info4"><a href="https://www.verizon.com/"><img src="img/verizonLogo.png" alt="verizon wireless logo" /></a><p>I began my time at Verizon Wireless as Customer Service Agent in their Hanover, MD call center. From there, I joined the retail arm in New England, where I both wrote and taught "New Phone" classes to customers as part of their upgrade process.</p></div>
+      <div class="resheading2">
+        <h3>Education</h3>
+      </div>
+      <div class="blank2"></div>
+      <div class="edu1"><h4>University of Massachusetts, Lowell MA</h4>
+        <ul class="edu">
+          <li>Website Design &#38; Development: Currently Enrolled with a 4.0 GPA</li>
+        </ul></div>
+      <div class="info5"><a href="https://www.uml.edu/"><img src="img/umass_logo.png" alt="umass logo" /></a></div>
+      <div class="edu2">
+        <h4>Middlesex Community College, Bedford MA</h4>
+        <ul class="edu">
+          <li>Associate of Science, Business Administration: Completed 52 credits toward degree.</li>
+        </ul>
+      </div>
+      <div class="info6"><a href="https://www.middlesex.mass.edu/"><img src="img/middlesex_logo_small.png" alt="middlesex logo" /></a></div>
+      <div class="edu3">
+        <h4>University of Maryland Baltimore County, Catonsville MD</h4>
+        <ul class="edu">
+          <li>Interdisciplinary Studies in Business Management &#38; Literature: Completed 68 credits toward degree.</li>
+        </ul>
+      </div>
+      <div class="info7"><a href="https://www.umbc.edu/"><img src="img/UMBC-color_logo.png" alt="umbc logo" /></a></div>
+    </div>
+
+	<button class="resumebutton">PDF</button>
+	
+	</div>--> 

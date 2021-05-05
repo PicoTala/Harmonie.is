@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test page</title>
+<style>
+	.container {
+		display: grid;
+		background-color: aqua;
+		grid-template-columns: [col1] 100px [col2] auto [col3] 100px;
+		grid-template-rows: [row1] 200px [row2] auto [row3] 200px;
+		border: 1px solid #000;
+		grid-template-areas: 
+			"header header header"
+			"main . sidebar"
+			"footer footer footer"
+	}	
+	.item-a {
+		grid-area: header;
+		}
+	.item-b {
+		grid-area: main;
+	}
+	.item-c {
+		grid-area: sidebar;
+	}
+	.item-d {
+		grid-area: footer;
+	}
+</style>	
+
+</head>
+
+<body>
+	<div class="item-b">Test test test</div>
+	
+</body>
+</html>

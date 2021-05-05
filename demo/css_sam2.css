@@ -1,0 +1,90 @@
+    body {
+        margin: 0px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 0.1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "leftbar content"
+          "leftbar socm";
+      }
+
+      .leftbar {
+        grid-area: leftbar;
+        background-color: #fff;
+        border-right: 2px dashed #999;
+        min-height: 97vh;
+        padding: 1.5em;
+      }
+      .leftbar {
+        display: flex;
+        flex-direction: column;
+      }
+      .logo {
+        width: 100%;
+      }
+      .category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .category a {
+        text-decoration: none;
+        margin: 1.5em;
+        font-size: 1.4em;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .content {
+        grid-area: content;
+        background-color: #333;
+        padding: 2em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        color: #fff;
+      }
+      .gallery {
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .gallery img {
+        padding: 5px;
+        max-width: 300px;
+      }
+      .galdisc {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        margin: 5px;
+      }
+      .galdisc h3 {
+        font-size: 1.4em;
+      }
+      .galdisc p {
+        text-align: center;
+        padding: 20px;
+      }
+      .socm {
+        grid-area: socm;
+        background-color: #111;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 1em;
+      }
+      .socm img {
+        max-width: 50px;
+        padding: 10px;
+      }

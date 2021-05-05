@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harmonie Snow</title>
+<link href="my.css" type="text/css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script type="text/javascript" src="jquery.js"></script> 
+<script>
+$(function () {
+    $(".tile").click(function () {
+        $(this).css('background', 'linear-gradient(0.25turn, #a47cb7, #b77cad, #955289');
+    });
+});
+</script>
+<style>
+.introgrid {
+    display: grid;
+    grid-template-columns: min-content 2fr;
+    grid-template-rows: min-content min-content 3f;
+    gap: 10px 10px;
+    grid-template-areas: "sketch intro-header" "sketch intro-links" "sketch intro-text";
+}
+.intro-header {
+    grid-area: intro-header;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(0.25turn, #d5d0e6, #d0d6e6, #d0d7e6, #e0d0e6);
+    border-radius: 20em 20em;
+    margin: 1em 1em 0.5em 1em;
+}
+.intro-header h1, .intro-header h2, .introheader h3 {
+    margin: 5px;
+}
+.headertext {
+    background-color: #333;
+    border: 2px solid #222;
+    margin: 1em 1.5em;
+    border-radius: 20em 20em;
+    padding: 5px;
+    color: #fff;
+}
+.sketch {
+    grid-area: sketch;
+    padding: 10px;
+}
+.intro-links {
+    grid-area: intro-links;
+    /*background-color: #ecefe1;*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.siteimgs {
+    border: 5px solid #222;
+    background-color: #666;
+    margin: 1em;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.intro-text {
+    grid-area: intro-text;
+    padding: 0px 1em;
+    border-radius: 0em;
+    margin: 0em 1em;
+}
+.intro-text p {
+    margin: 0px;
+    font-size: 1.1em;
+}
+.socialmedia {
+    grid-area: socialmedia;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socialmedia img {
+    width: 80%;
+}
+/*article has some css on it already regarding border radius and margins*/
+.gamegrid {
+    display: grid;
+    grid-template-columns: 1.5em 1fr 1.5em;
+    grid-template-rows: min-content 1fr;
+    gap: 0em 1em;
+    grid-template-areas: ". game-key ." "lside game-tiles rside";
+}
+.game-key {
+    grid-area: game-key;
+    border: 5px solid #cfe4d2;
+    border-bottom: 0;
+    background: linear-gradient(0.5turn, #cfe4d2, #dfede1);
+    padding: 1em 2em;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+.game-key p {
+    margin: 0.4em;
+}
+.game-tiles {
+    grid-area: game-tiles;
+    background: linear-gradient(0.25turn, #cfe4d2, #cfe4dd, #d7e4cf, #dfede1);
+    border: 5px solid #cfe4d2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em 5em;
+    border-radius: 0px 0px 50px 50px;
+}
+.tile {
+    background: linear-gradient(0.75turn, #52955e, #6cae78);
+    border: 1px solid #5ca569;
+    margin: 15px;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 20em 20em;
+    color: #fff;
+    min-width: 150px;
+    text-align: center;
+}
+.tile:focus {
+    background: linear-gradient(0.25turn, #52955e, #6cae78);
+    border: 1px solid #d2cce3;
+}
+.tile:hover {
+    background: linear-gradient(0.25turn, #52955e, #6cae78);
+    border: 1px solid #d2cce3;
+}
+.tile:active {
+    background: #528995;
+    border: 1px solid #d2cce3;
+}
+.rside {
+    grid-area: rside;
+}
+.lside {
+    grid-area: lside;
+}
+.introbuttons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0em 5em;/*add spacing to flex*/
+}
+.res-button {
+    background: linear-gradient(0.6turn, #cbc6e0, #c6cee0, #c6dbe0);
+    border: 5px solid #a5b2ce;
+    border-radius: 20em 20em;
+    color: #222;
+    padding: 10px 50px;
+    font-size: 1.25em;
+}
+</style>
+</head>
+<body>
+<!-- #BeginLibraryItem "/Library/Nav.lbi" -->
+<div id="nav">
+  <ul class="navlist">
+  <li><a href="index.html"><img src="img/Logo_HS.png" alt="logo"></a></li>
+    <li><a href="vibing.html">Blog</a></li>
+    <li><a href="working.html">Work</a></li>
+    <li><a href="chatting.html">Contact</a></li>
+  </ul>
+</div>
+<!-- #EndLibraryItem -->
+<main id="content">
+  <h2 class="heading">oh hey that's me</h2>
+  <section class="introgrid">
+    <header class="intro-header">
+      <div class="headertext">
+        <h1>Harmonie Snow</h1>
+        <h2>Web Designer</h2>
+      </div>
+    </header>
+    <aside class="sketch"><img src="img/stick_figure_rev.png" alt="self portrait as a stick figure" /></aside>
+    <aside class="socialmedia"></aside>
+    <article class="intro-text">
+      <p>Hello! I'm Harmonie, nice to meet you. If you're here, you might be curious about what I work on, and what my skills are. I've made a little game below, with a bunch of them listed. You'll see the names of software I'm comfortable using, too. There's also some screenshots of pages you can visit that I've made, and a link to a portfolio of email templates from my time at Constant Contact. If you would prefer just the facts, there's a spot to download my resume. If you see anything interesting, use the Contact button to let me know about it!</p>
+      <br>
+      <section class="introbuttons">
+        <a href="CTCTportfolio.html"><button class="res-button">Portfolio</button></a>
+        <a href="Contact.html"><button class="res-button">Contact</button></a>
+        <a href="HSnowResume.pdf"><button class="res-button">Resume</button></a>
+      </section>
+    </article>
+    <div class="intro-links">
+        <a href="https://wtn.harmonie.dev/"><img src="img/WTN_frontpage.png" alt="screenshot of WTN travel blog home page" class="siteimgs"></a>
+        <a href="http://ceweb.uml.edu/hperr61003/index.html"><img src="img/UML_courseworksite.png" alt="screenshot of school site" class="siteimgs"></a>
+        <a href="http://ceweb.uml.edu/hperr61003/AWD/8bithops/index.html"><img src="img/8bithops_frontpage.png" alt="screenshot of 8bit hops project site" class="siteimgs"></a></div>
+  </section>
+  <br>
+  <section class="gamegrid">
+    <div class="game-key">
+      <p>Try clicking on the items that mention a skill or software that might be useful to you. If you find more than a couple, let's talk about it!</p>
+    </div>
+    <div class="game-tiles">
+      <div class="tile">Photoshop</div>
+      <div class="tile">Marketing</div>
+      <div class="tile">CSS</div>
+      <div class="tile">Training</div>
+      <div class="tile">QA</div>
+      <div class="tile">CM Systems</div>
+      <div class="tile">Jira</div>
+      <div class="tile">Zendesk</div>
+      <div class="tile">Fonality</div>
+      <div class="tile">Outlook</div>
+      <div class="tile">ADA</div>
+      <div class="tile">CRM</div>
+      <div class="tile">Webmail</div>
+      <div class="tile">Conflict Resolution</div>
+      <div class="tile">Teaching</div>
+      <div class="tile">On-Call Support</div>
+      <div class="tile">Javascript</div>
+      <div class="tile">Customer Service</div>
+      <div class="tile">Team Management</div>
+      <div class="tile">Client Relations</div>
+      <div class="tile">Product Testing</div>
+      <div class="tile">Troubleshooting</div>
+      <div class="tile">Logo Design</div>
+      <div class="tile">Site Planning</div>
+      <div class="tile">Responsive Layouts</div>
+      <div class="tile">Website Design</div>
+      <div class="tile">Dreamweaver</div>
+      <div class="tile">Affinity Photo</div>
+      <div class="tile">Python</div>
+      <div class="tile">HTML</div>
+    </div>
+    <div class="rside"></div>
+    <div class="lside"></div>
+  </section>
+  <br>
+</main>
+<!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+<div id="footer">
+  <ul class="footer">
+    <li><a href="https://www.facebook.com/harmonie.perry"><img src="img/facebook_circle-256.png" alt="Facebook"></a></li>
+    <li><a href="https://www.linkedin.com/in/harmonie-snow/"><img src="img/linkedin_circle-256.png" alt="Linkedin"></a></li>
+    <li><a href="https://twitter.com/PicoTala"><img src="img/twitter_circle-256.png" alt="Twitter"></a></li>
+    <li><a href="https://www.instagram.com/picotala/"><img src="img/instagram_circle-256.png" alt="Instagram"></a></li>
+    <li><a href="https://www.etsy.com/shop/WritersBlockCrafts"><img src="img/etsy-logo.png" alt="Etsy"></a></li>
+  </ul>
+</div>
+<!-- #EndLibraryItem -->
+</body>
+</html>

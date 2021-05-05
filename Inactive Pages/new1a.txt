@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Malie Library - Reference Section - PTCGO images - GUM</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="theme.css">
+  </head>
+  <body>
+  <div class="flex-row"> <!-- Haha, nobody uses tables anymore! *reinvents tables* -->
+      <nav>
+      <ul class="set-series">
+        <li><span class="series-name">SM</span>
+          <ul class="set-expansions">
+            <li><a href="HF.html">HF</a></li>
+            <li><a href="SM11.html">SM11</a></li>
+            <li><a href="SM10.html">SM10</a></li>
+            <li><a href="GUM.html">GUM</a></li>
+            <li><a href="SM9.html">SM9</a></li>
+            <li><a href="SM8.html">SM8</a></li>
+            <li><a href="DM.html">DM</a></li>
+            <li><a href="SM7.html">SM7</a></li>
+            <li><a href="SM6.html">SM6</a></li>
+            <li><a href="SM5.html">SM5</a></li>
+            <li><a href="SM4.html">SM4</a></li>
+            <li><a href="SL.html">SL</a></li>
+            <li><a href="SM3.html">SM3</a></li>
+            <li><a href="TK10B.html">TK10B</a></li>
+            <li><a href="TK10A.html">TK10A</a></li>
+            <li><a href="SM2.html">SM2</a></li>
+            <li><a href="SM_Energy.html">SM_Energy</a></li>
+            <li><a href="SM1.html">SM1</a></li>
+            <li><a href="Promo_SM.html">Promo_SM</a></li>
+          </ul>
+        </li>
+        <li><span class="series-name">XY</span>
+          <ul class="set-expansions">
+            <li><a href="XY12.html">XY12</a></li>
+            <li><a href="XY11.html">XY11</a></li>
+            <li><a href="Promo_XY.html">Promo_XY</a></li>
+            <li><a href="XY10.html">XY10</a></li>
+            <li><a href="TK9B.html">TK9B</a></li>
+            <li><a href="TK9A.html">TK9A</a></li>
+            <li><a href="TwentiethAnn.html">TwentiethAnn</a></li>
+            <li><a href="XY9.html">XY9</a></li>
+            <li><a href="XY8.html">XY8</a></li>
+            <li><a href="XY7.html">XY7</a></li>
+            <li><a href="TK8B.html">TK8B</a></li>
+            <li><a href="TK8A.html">TK8A</a></li>
+            <li><a href="XY6.html">XY6</a></li>
+            <li><a href="TATM.html">TATM</a></li>
+            <li><a href="XY5.html">XY5</a></li>
+            <li><a href="TK7B.html">TK7B</a></li>
+            <li><a href="TK7A.html">TK7A</a></li>
+            <li><a href="XY4.html">XY4</a></li>
+            <li><a href="XY3.html">XY3</a></li>
+            <li><a href="XY2.html">XY2</a></li>
+            <li><a href="TK6A.html">TK6A</a></li>
+            <li><a href="TK6B.html">TK6B</a></li>
+            <li><a href="XY1.html">XY1</a></li>
+            <li><a href="XY0.html">XY0</a></li>
+            <li><a href="XY_Energy.html">XY_Energy</a></li>
+          </ul>
+        </li>
+        <li><span class="series-name">RSP</span>
+          <ul class="set-expansions">
+            <li><a href="RSP.html">RSP</a></li>
+          </ul>
+        </li>
+        <li><span class="series-name">BW</span>
+          <ul class="set-expansions">
+            <li><a href="BW11.html">BW11</a></li>
+            <li><a href="BW10.html">BW10</a></li>
+            <li><a href="BW9.html">BW9</a></li>
+            <li><a href="BW8.html">BW8</a></li>
+            <li><a href="BW7.html">BW7</a></li>
+            <li><a href="BW6.html">BW6</a></li>
+            <li><a href="BW5.html">BW5</a></li>
+            <li><a href="BW4.html">BW4</a></li>
+            <li><a href="BW3.html">BW3</a></li>
+            <li><a href="BW2.html">BW2</a></li>
+            <li><a href="Promo_BW.html">Promo_BW</a></li>
+            <li><a href="TK5A.html">TK5A</a></li>
+            <li><a href="TK5B.html">TK5B</a></li>
+            <li><a href="DV.html">DV</a></li>
+            <li><a href="BW_Energy.html">BW_Energy</a></li>
+            <li><a href="BW1.html">BW1</a></li>
+          </ul>
+        </li>
+        <li><span class="series-name">HGSS</span>
+          <ul class="set-expansions">
+            <li><a href="COL.html">COL</a></li>
+            <li><a href="HGSS4.html">HGSS4</a></li>
+            <li><a href="HGSS3.html">HGSS3</a></li>
+            <li><a href="HGSS2.html">HGSS2</a></li>
+            <li><a href="Promo_HGSS.html">Promo_HGSS</a></li>
+            <li><a href="HGSS_Energy.html">HGSS_Energy</a></li>
+            <li><a href="HGSS1.html">HGSS1</a></li>
+          </ul>
+        </li>
+        <li><span class="series-name">NONE</span>
+          <ul class="set-expansions">
+            <li><a href="Free_Energy.html">Free_Energy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <article>
+      <ul class="card-list">
+        <li>GUM #1 Bulbasaur [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-001-bulbasaur.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-001-bulbasaur.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-001-bisasam.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-001-bulbasaur.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-001-bulbizarre.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-001-bulbasaur.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #2 Ludicolo [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-002-ludicolo.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-002-ludicolo.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-002-kappalores.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-002-ludicolo.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-002-ludicolo.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-002-ludicolo.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #3 Morelull [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-003-morelull.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-003-morelull.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-003-bubungus.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-003-morelull.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-003-spododo.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-003-morelull.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #4 Charmander [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-004-charmander.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-004-charmander.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-004-glumanda.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-004-charmander.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-004-salameche.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-004-charmander.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #5 Charizard [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-005-charizard.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-005-charizard.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-005-glurak.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-005-charizard.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-005-dracaufeu.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-005-charizard.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #6 Arcanine [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-006-arcanine.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-006-arcanine.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-006-arkani.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-006-arcanine.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-006-arcanin.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-006-arcanine.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #7 Psyduck [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-007-psyduck.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-007-psyduck.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-007-enton.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-007-psyduck.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-007-psykokwak.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-007-psyduck.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #8 Magikarp [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-008-magikarp.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-008-magikarp.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-008-karpador.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-008-magikarp.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-008-magicarpe.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-008-magikarp.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #9 Greninja [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-009-greninja.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-009-greninja.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-009-quajutsu.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-009-greninja.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-009-amphinobi.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-009-greninja.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #10 DetectivePikachu [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-010-detective_pikachu.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-010-detective_pikachu.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-010-meisterdetektiv_pikachu.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-010-detective_pikachu.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-010-detective_pikachu.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-010-detective_pikachu.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #11 MrMime [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-011-mr_mime.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-011-mr_mime.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-011-pantimos.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-011-mr_mime.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-011-m_mime.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-011-mr_mime.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #12 Mewtwo [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-012-mewtwo.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-012-mewtwo.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-012-mewtu.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-012-mewtwo.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-012-mewtwo.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-012-mewtwo.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #13 Machamp [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-013-machamp.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-013-machamp.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-013-machomei.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-013-machamp.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-013-mackogneur.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-013-machamp.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #14 Jigglypuff [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-014-jigglypuff.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-014-jigglypuff.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-014-pummeluff.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-014-jigglypuff.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-014-rondoudou.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-014-jigglypuff.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #15 Snubbull [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-015-snubbull.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-015-snubbull.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-015-snubbull.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-015-snubbull.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-015-snubbull.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-015-snubbull.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #16 Lickitung [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-016-lickitung.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-016-lickitung.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-016-schlurp.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-016-lickitung.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-016-excelangue.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-016-lickitung.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #17 Ditto [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-017-ditto.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-017-ditto.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-017-ditto.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-017-ditto.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-017-metamorph.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-017-ditto.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>GUM #18 Slaking [std]
+          <ul class="img_type_list">
+            <li>jpg: 
+              <ul class="locale_list">
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/en_US/SM/GUM-DET/en_US-GUM-018-slaking.jpg">en_US</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/it_IT/SM/GUM-DET/it_IT-GUM-018-slaking.jpg">it_IT</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/de_DE/SM/GUM-DET/de_DE-GUM-018-letarking.jpg">de_DE</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/es_ES/SM/GUM-DET/es_ES-GUM-018-slaking.jpg">es_ES</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/fr_FR/SM/GUM-DET/fr_FR-GUM-018-monaflemit.jpg">fr_FR</a>]</li>
+                <li>[<a href="https://cdn.malie.io/file/malie-io/art/jpg/pt_BR/SM/GUM-DET/pt_BR-GUM-018-slaking.jpg">pt_BR</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+body {
+    background-color: #666;
+    background-image: image("img/mirrored-squares.png");
+    background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+}
+
+
+/*layout CSS*/
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 95% 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    margin: 3em;
+    min-height: 95vh;
+    grid-template-areas: ". pageborder .";
+}
+
+.pageborder {
+    grid-area: pageborder;
+    background: linear-gradient(#111, #666, #999, #666, #111);
+    padding: 1em;
+    border-radius: 5%;
+}
+
+.page {
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.navlinks {
+    padding: 10px 10px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navlinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlinks ul {
+    list-style-type: none;
+}
+
+.navlinks ul li {
+    display: inline-flex;
+}
+
+.headimg {
+    grid-area: headimg;
+    margin: 0em 2em;
+    padding: 2em 3em 1em 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.headimg img {
+    max-width: 70%;
+}
+
+.galleryicons {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.galleryicons img {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2em;
+}
+
+.galleryicons img:hover {
+    background: linear-gradient(#666, #444, #222);
+    border-radius: 2em;
+}
+
+.continfo ul {
+    list-style-type: none;
+}
+
+.contact {
+    grid-area: contact;
+    background-color: #fff;
+    padding: 0em 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.cinfo,
+.cedu {
+    width: 48%;
+}
+
+.cinfocont,
+.ceducont {
+    padding: 1.5em;
+}
+
+.cedu {
+    text-align: right;
+}
+
+.cskills {
+    text-align: center;
+}
+
+.resdetails {
+    grid-area: resdetails;
+    background-color: #fff;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery img {
+    padding: 5px;
+}
+
+
+/*standard page elements*/
+
+h1 {
+    font-family: Circoex;
+    src: local("circoex3_14-12-11.tff");
+}
+
+h2 {
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+    color: #fff;
+    background-color: #000;
+}
+
+h4 {
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}

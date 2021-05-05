@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harmonie Snow</title>
+<link href="my.css" type="text/css" rel="stylesheet" />
+<style>
+body {
+    font-family: Arial, Verdana, Sans-serif;
+    min-width: 930px;
+    background-color: #e0ddec;
+    background-image:url("img/pngtree-light-green-texture-background.jpg");
+    margin: 0 auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+html {
+    height: 100%;
+}
+#content {
+    height: 90%;
+    background-color: #e0ddec;
+    border: 1px solid #9e95c5;
+    margin: 15px;
+}
+#nav {
+    background-color: #3e3662;
+    border-bottom: 1px solid #9e95c5;
+    padding: 10px;
+    margin: 0px 0px 10px 0px; /* ?? ?? bottom left */
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+#feature {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 15px;
+}
+#footer {
+    background-color: #3e3662;
+    border-top: 1px solid #9e95c5;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+}
+ul.navlist {
+    display: inline;
+    width: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.navlist li {
+    display: inline;
+}
+ul.navlist li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+ul.navlist li a:hover {
+    color: #dfecdc;
+}
+/*ul.activepage li a {
+	color: red;
+}*/
+
+/*
+ul.navlist li a:visited {
+	color: #dcc3d8;
+}
+
+ul.navlist li a:active {
+	color: #c3d8dc;
+}
+*/
+
+#feature h3 {
+    text-decoration: underline;
+    font-size: 14px;
+}
+ul.feature li {
+    list-style-type: circle;
+    font-size: 12px;
+}
+ul.navlist li img {
+    height: 35px;
+    width: 53px;
+}
+ul.experience li {
+    list-style-type: circle;
+    font-size: 12px;
+}
+p.skills {
+    font-style: italic;
+    font-size: 11px;
+}
+ul.edu li {
+    list-style-type: circle;
+    font-size: 12px;
+}
+ul.footer {
+    display: inline;
+    width: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.footer li {
+    display: inline;
+}
+ul.footer li img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+li {
+    margin: 0px 0px 0px 0px;
+}
+/*
+ul.navlist li a:hover {
+	color: red;
+}
+
+ul.navlist li a:focus {
+	color: orange;
+}
+*/
+
+/*.column1, .column2, {
+	background color: #d6d6d6;
+	width: 450px;
+	float: left;
+margin: 10px;}
+*/
+
+h1 {
+    font-style: underline 1px #000000;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+h4 {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+h5 {
+    font-weight: bold;
+    font-size: 10px;
+text align: left;
+}
+p {
+    text-align: left;
+    font-size: 12px;
+}
+/*
+li {
+	float: left;
+}
+*/
+
+/*
+img {
+	border-radius: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	align: center;
+	padding: 2px;
+}
+*/
+
+th {
+    text-align: left;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-transform: uppercase;
+    padding: 5px;
+}
+td {
+    text-align: left;
+    font-size: 11px;
+    padding: 3px 3px 3px 3px;
+}
+ol {
+    list-style-type: disc;
+}
+</style>
+</head>
+<body>
+<div id="nav">
+  <ul class="navlist">
+    <li><a href="index.html"><img src="img/logo_initials_light.png" alt="logo"></a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="crossstitch.html">Cross Stitch</a></li>
+    <li><a href="projects.html">Projects</a></li>
+  </ul>
+</div>
+<div id="content">
+  <h2>Content</h2>
+  <div id="feature">
+    <h3>Update Log:</h3>
+    <h4>2.17.20</h4>
+    <ul class="feature">
+      <li>Added content to Resume page.</li>
+      <li>Added CSS for main body text.</li>
+      <li>Added background image.</li>
+    </ul>
+    <h4>2.16.20</h4>
+    <ul class="feature">
+      <li>Added navigation links</li>
+      <li>Added Footer with SM links</li>
+      <li>Updated color scheme</li>
+    </ul>
+    <h3>To Do:</h3>
+    <ul class="feature">
+      <li>Check Validation Errors</li>
+      <li>Create Logo in Inkscape</li>
+      <li>Outline Content for Other Pages</li>
+    </ul>
+  </div>
+</div>
+<div id="footer">
+  <ul class="footer">
+    <li><a href="https://www.facebook.com/harmonie.perry"><img src="img/facebook_circle-256.png" alt="Facebook"></a></li>
+    <li><a href="https://www.linkedin.com/in/harmonie-snow/"><img src="img/linkedin_circle-256.png" alt="Linkedin"></a></li>
+    <li><a href="https://twitter.com/PicoTala"><img src="img/twitter_circle-256.png" alt="Twitter"></a></li>
+    <li><a href="https://www.instagram.com/picotala/"><img src="img/instagram_circle-256.png" alt="Instagram"></a></li>
+  </ul>
+</div>
+</body>
+</html>
